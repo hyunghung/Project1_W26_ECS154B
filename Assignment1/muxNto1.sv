@@ -8,5 +8,7 @@ module muxNto1 #(
 );
     
     // TODO: Implement the N to 1 multiplexer logic
-    
+    always_comb begin
+        out = in_bus[sel];
+    end
 endmodule

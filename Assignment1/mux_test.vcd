@@ -1,0 +1,75 @@
+$date
+	Sat Jan 17 05:11:27 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module muxNto1_tb $end
+$var wire 8 ! out [7:0] $end
+$var parameter 32 " TEST_N $end
+$var parameter 32 # TEST_WIDTH $end
+$var reg 40 $ in_bus [39:0] $end
+$var reg 3 % sel [2:0] $end
+$scope module dut $end
+$var wire 40 & in_bus [39:0] $end
+$var wire 3 ' sel [2:0] $end
+$var parameter 32 ( N $end
+$var parameter 32 ) WIDTH $end
+$var reg 8 * out [7:0] $end
+$upscope $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 + i [31:0] $end
+$upscope $end
+$scope begin $ivl_for_loop1 $end
+$var integer 32 , j [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 )
+b101 (
+b1000 #
+b101 "
+$end
+#0
+$dumpvars
+b0 ,
+b101 +
+b1010 *
+b0 '
+b111000001101000011000000101100001010 &
+b0 %
+b111000001101000011000000101100001010 $
+b1010 !
+$end
+#10000
+b1011 !
+b1011 *
+b1 %
+b1 '
+b1 ,
+#20000
+b1100 !
+b1100 *
+b10 %
+b10 '
+b10 ,
+#30000
+b1101 !
+b1101 *
+b11 %
+b11 '
+b11 ,
+#40000
+b1110 !
+b1110 *
+b100 %
+b100 '
+b100 ,
+#50000
+b101 ,
+#60000
